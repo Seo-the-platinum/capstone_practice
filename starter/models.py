@@ -5,7 +5,7 @@ import os
 '''
 database_path = os.environ['DATABASE_URL']
 '''
-database_path = 'postgres://bjkbipbiaoqorp:8ea1cb39f8c795bdaceabb74c536aae47f544f9e3445c28cc5c6b1553dd06eec@ec2-54-90-211-192.compute-1.amazonaws.com:5432/d8gs916mk8h12f'
+database_path = 'postgresql://bjkbipbiaoqorp:8ea1cb39f8c795bdaceabb74c536aae47f544f9e3445c28cc5c6b1553dd06eec@ec2-54-90-211-192.compute-1.amazonaws.com:5432/d8gs916mk8h12f'
 db = SQLAlchemy()
 
 '''
